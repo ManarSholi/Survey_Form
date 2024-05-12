@@ -1,0 +1,161 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgba(112, 112, 171, 0.5), rgba(112, 112, 171, 0.5)), url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg")
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 47px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    border: rgba(39,39,70, 0.9);
+    width: 42.3%;
+    background-color: rgba(39,39,70, 0.9);
+    padding-inline: 43px;
+    border-radius: 5px;
+    padding-top: 42px;
+    padding-bottom: 60px;
+    margin-top: 30px;
+    gap: 25px;
+}
+
+label {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    font-size: 18px;
+}
+
+#title, #description {
+    text-align: center;
+    padding-block: 0;
+    margin-block: 0;
+}
+
+#title {
+    padding-right: 17px;
+    line-height: 1.4;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+#description {
+    font-style: italic;
+    font-weight: 200;
+    font-size: 18px;
+    padding-right: 18px;
+    margin-top: 3px;
+}
+
+.personal-information {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    font-size: 18px;
+}
+
+#name, #email, #number {
+    height: 1em;
+    border-radius: 5px;
+    font-size: 16px;
+    padding-inline: 12px;
+    padding-block: 11px;
+    color: #495057;
+    font-family: 'Poppins';
+}
+
+#dropdown {
+    height: 2.5em;
+    border-radius: 5px;
+    font-size: 16px;
+    padding-inline: 12px;
+    padding-block: 11px;
+    color: #495057;
+    font-family: 'Poppins';
+}
+
+.recommend-freecodecamp {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+}
+
+p {
+    font-size: 18px;
+    margin: 0;
+}
+
+input[type="radio"] {
+    width: 20px;
+    padding: 0;
+    margin: 0;
+    margin-right: 4px;
+}
+
+.question1 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#favorite-dropdown {
+    height: 2.5em;
+    border-radius: 5px;
+    font-size: 16px;
+    padding-inline: 12px;
+    padding-block: 11px;
+    color: #495057;
+    font-family: 'Poppins';
+}
+
+.checkbox {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+}
+
+.check-question {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    padding: 0;
+    margin: 0;
+    margin-right: 4px;
+}
+
+textarea {
+    font-size: 16px;
+    padding-inline: 12px;
+    padding-block: 11px;
+    color: #495057;
+    font-family: 'Poppins';
+}
+
+input[type="submit"] {
+    background-color: #37AF65;
+    color: #F3F3F3;
+    height: 3em;
+    border-radius: 2px;
+    border-color: #37AF65;
+    font-size: 16px;
+}
